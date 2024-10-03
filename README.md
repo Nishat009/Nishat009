@@ -1,5 +1,6 @@
 ## Hi there 👋
-
+ Tech Stack:
+C++ JavaScript HTML5 CSS3 PHP Vercel Firebase Netlify Heroku Ant-Design Express.js React SASS Next JS Bootstrap TailwindCSS Redux NodeJS Laravel MySQL MongoDB Figma Adobe XD Jira Trello
 <!--
 **Nishat009/Nishat009** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
