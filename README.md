@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Nishat Raihana Prantik</h1>
 <h3 align="center">A dedicated frontend developer from Nikunja, Dhaka, Bangladesh</h3>
-![Banner](https://ibb.co.com/sVYvHLN)
+![](https://i.ibb.co.com/wzmNsDP/image.png)
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=nishat009&label=Profile%20views&color=0e75b6&style=flat" alt="nishat009" /> </p>
 
