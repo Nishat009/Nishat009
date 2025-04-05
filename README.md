@@ -1,4 +1,4 @@
-![](https://i.ibb.co.com/wzmNsDP/image.png)
+
 <h1 align="center">Hi 👋, I'm Nishat Raihana Prantik</h1>
 <h3 align="center">A dedicated Software Engineer from Nikunja, Dhaka, Bangladesh</h3>
 
