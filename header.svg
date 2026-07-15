@@ -41,7 +41,7 @@
   <circle cx="20" cy="18" r="6" fill="#ff5f56" />
   <circle cx="40" cy="18" r="6" fill="#ffbd2e" />
   <circle cx="60" cy="18" r="6" fill="#27c93f" />
-  <text x="400" y="22" class="window-title" text-anchor="middle">👨‍💻 nishat-raihana-prantik.ts — Visual Studio Code</text>
+  <text x="400" y="22" class="window-title" text-anchor="middle">👨‍💻 about.ts — Nishat Raihana Prantik — Visual Studio Code</text>
 
   <!-- Sidebar (Explorer) -->
   <rect x="0" y="35" width="180" height="360" fill="#090d16" />
@@ -154,7 +154,7 @@
       </text>
       <!-- Line 11 -->
       <text x="20" y="225">
-        <tspan class="keyword">public</tspan> <tspan class="property">stack</tspan> = [<tspan class="string">'Angular'</tspan>, <tspan class="string">'TypeScript'</tspan>, <tspan class="string">'RxJS'</tspan>, <tspan class="string">'Signals'</tspan>];
+        <tspan class="keyword">public</tspan> <tspan class="property">stack</tspan> = [<tspan class="string">'Angular'</tspan>, <tspan class="string">'React'</tspan>, <tspan class="string">'Next.js'</tspan>, <tspan class="string">'TypeScript'</tspan>, <tspan class="string">'RxJS'</tspan>];
       </text>
       <!-- Line 12 -->
       <text x="20" y="245">
