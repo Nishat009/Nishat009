@@ -1,29 +1,88 @@
+<div align="center">
+  <!-- Sleek Custom SVG Header referenced relatively -->
+  <img src="header.svg" width="100%" alt="Nishat Raihana Prantik - Angular Developer" />
+</div>
 
-<h1 align="center">Hi 👋, I'm Nishat Raihana Prantik</h1>
-<h3 align="center">A dedicated Software Engineer from Nikunja, Dhaka, Bangladesh</h3>
+<br/>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=nishat009&label=Profile%20views&color=0e75b6&style=flat" alt="nishat009" /> </p>
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=nishat009&label=Profile%20views&color=dd0031&style=for-the-badge" alt="nishat009 profile views" />
+</div>
 
-- 👨‍💻 All of my projects are available at [https://prantik-portfolio009.netlify.app/](https://prantik-portfolio009.netlify.app/)
+---
 
-- 📝 I regularly write articles on [https://medium.com/@nishatraihana009](https://medium.com/@nishatraihana009)
+### 💻 About Me
 
-- 📫 How to reach me **nishatraihana009@gmail.com**
+Here is a quick snapshot of who I am, structured as a modern Angular component:
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1_o2fpLilesBeTK0mZzblTM7ED_poonGo/view?usp=sharing](https://drive.google.com/file/d/1_o2fpLilesBeTK0mZzblTM7ED_poonGo/view?usp=sharing)
+```typescript
+import { Component, OnInit } from '@angular/core';
 
-- ⚡ Fun fact **I love to read comics**
+@Component({
+  selector: 'app-nishat-raihana-prantik',
+  templateUrl: './profile.component.html',
+  styleUrls: ['./profile.component.css']
+})
+export class NishatRaihanaPrantikComponent implements OnInit {
+  // ⚡ Developer Profile
+  public readonly name = 'Nishat Raihana Prantik';
+  public readonly role = 'Software Engineer';
+  public readonly location = 'Dhaka, Bangladesh 🇧🇩';
+  
+  // 🚀 Framework of Choice & Core Stack
+  public readonly primaryFramework = 'Angular';
+  public readonly frontendTech = ['TypeScript', 'JavaScript', 'RxJS', 'Signals', 'HTML5', 'CSS3', 'SCSS'];
+  public readonly stateManagement = ['NgRx', 'RxJS BehaviorSubjects'];
+  
+  // 🎨 Styling & Design Systems
+  public readonly UI_Design = ['Tailwind CSS', 'Bootstrap', 'Bulma', 'Material Design', 'Figma'];
+  
+  // 🛠️ Other Technologies & Tools
+  public readonly backendAndDb = ['Laravel', 'Java', 'MySQL'];
+  public readonly toolsWorkflow = ['Git', 'Webpack', 'Postman', 'Cypress', 'Adobe Illustrator'];
+  
+  // 💡 Fun Fact
+  public readonly funFact = 'I love to read comics and write technical blogs! 📚📝';
+}
+```
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://codepen.io/https://codepen.io/prantik1606" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="https://codepen.io/prantik1606" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/nishat12/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/nishat12/" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/https://stackoverflow.com/users/16965813/nishat-raihana-prantik" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="https://stackoverflow.com/users/16965813/nishat-raihana-prantik" height="30" width="40" /></a>
-<a href="https://medium.com/@nishatraihana009" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@nishatraihana009" height="30" width="40" /></a>
+---
+
+### 🛠️ Tech Stack & Toolkit
+
+| Category | Technologies |
+| :--- | :--- |
+| **Frontend Framework & Core** | <a href="https://angular.io" target="_blank"><img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" /></a> <a href="https://www.typescriptlang.org" target="_blank"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /></a> <a href="https://rxjs.dev" target="_blank"><img src="https://img.shields.io/badge/RxJS-B7178C?style=for-the-badge&logo=reactivex&logoColor=white" alt="RxJS" /></a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /></a> |
+| **Markup & Styling** | <a href="https://www.w3.org/html" target="_blank"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" /></a> <a href="https://www.w3.org/Style/CSS" target="_blank"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" /></a> <a href="https://sass-lang.com" target="_blank"><img src="https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="SASS" /></a> <a href="https://tailwindcss.com" target="_blank"><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" /></a> <a href="https://getbootstrap.com" target="_blank"><img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" /></a> <a href="https://bulma.io" target="_blank"><img src="https://img.shields.io/badge/Bulma-00D1B2?style=for-the-badge&logo=bulma&logoColor=white" alt="Bulma" /></a> |
+| **Backend & DB** | <a href="https://laravel.com" target="_blank"><img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" /></a> <a href="https://www.java.com" target="_blank"><img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" /></a> <a href="https://www.mysql.com" target="_blank"><img src="https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" /></a> <a href="https://nextjs.org" target="_blank"><img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" /></a> <a href="https://reactjs.org" target="_blank"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" /></a> |
+| **Testing & Tooling** | <a href="https://www.cypress.io" target="_blank"><img src="https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white" alt="Cypress" /></a> <a href="https://git-scm.com" target="_blank"><img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" /></a> <a href="https://webpack.js.org" target="_blank"><img src="https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black" alt="Webpack" /></a> <a href="https://www.postman.com" target="_blank"><img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" /></a> <a href="https://figma.com" target="_blank"><img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" /></a> |
+
+---
+
+### 📊 GitHub Stats & Metrics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=nishat009&show_icons=true&theme=radical&count_private=true" alt="Nishat's GitHub Stats" height="195" />
+  &nbsp;&nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=nishat009&show_icons=true&theme=radical&layout=compact" alt="Nishat's Top Languages" height="195" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://bulma.io/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/804dc257b59e144eaca5bc6ffd16949752c6f789/logos/bulma.svg" alt="bulma" width="40" height="40"/> </a> <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.cypress.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/6e46ec1fc23b60c8fd0d2f2ff46db82e16dbd75f/icons/cypress.svg" alt="cypress" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://laravel.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://webpack.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg" alt="webpack" width="40" height="40"/> </a> </p>
+---
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=nishat009&show_icons=true&locale=en&layout=compact" alt="nishat009" /></p>
+### 🤝 Let's Connect!
 
+I'm always open to talking about web performance, Angular architectures, open source, or comics. Reach out to me:
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/nishat12/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://stackoverflow.com/users/16965813/nishat-raihana-prantik" target="_blank"><img src="https://img.shields.io/badge/Stack_Overflow-F48024?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="StackOverflow" /></a>
+  <a href="https://codepen.io/prantik1606" target="_blank"><img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="CodePen" /></a>
+  <a href="https://medium.com/@nishatraihana009" target="_blank"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
+  <a href="mailto:nishatraihana009@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</div>
+
+<br/>
+
+*   🌐 Check out my digital playground / portfolio: [prantik-portfolio009.netlify.app](https://prantik-portfolio009.netlify.app/)
+*   📝 Read my technical articles on Medium: [@nishatraihana009](https://medium.com/@nishatraihana009)
+*   📄 Download / View my Resume: [Google Drive](https://drive.google.com/file/d/1_o2fpLilesBeTK0mZzblTM7ED_poonGo/view?usp=sharing)

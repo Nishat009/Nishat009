@@ -1,0 +1,84 @@
+<svg fill="none" viewBox="0 0 800 180" width="100%" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 32px;
+      font-weight: 800;
+      fill: #ffffff;
+    }
+    .subtitle {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      fill: #94a3b8;
+    }
+    .tag {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 11px;
+      font-weight: bold;
+      fill: #ffffff;
+    }
+    .status-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 11px;
+      font-weight: 500;
+      fill: #94a3b8;
+    }
+    .pulse {
+      animation: pulse-animation 2s infinite;
+      transform-origin: center;
+    }
+    @keyframes pulse-animation {
+      0% {
+        r: 4px;
+        fill-opacity: 0.6;
+      }
+      50% {
+        r: 10px;
+        fill-opacity: 0;
+      }
+      100% {
+        r: 4px;
+        fill-opacity: 0.6;
+      }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="angular-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dd0031" />
+      <stop offset="100%" stop-color="#c3002f" />
+    </linearGradient>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background card with glowing border effect -->
+  <rect width="100%" height="100%" rx="16" fill="url(#bg-grad)" stroke="#dd0031" stroke-width="2"/>
+
+  <!-- Decorative elements -->
+  <!-- Angular shield-like shape in the background -->
+  <path d="M 700,30 L 750,50 L 740,130 L 700,155 L 660,130 L 650,50 Z" fill="url(#angular-grad)" opacity="0.15" />
+  <path d="M 0 140 Q 200 100 400 140 T 800 140" stroke="#dd0031" stroke-width="1.5" fill="none" opacity="0.2"/>
+  <path d="M 0 150 Q 250 120 500 150 T 800 150" stroke="#38bdf8" stroke-width="1" fill="none" opacity="0.15"/>
+
+  <!-- Badge tag -->
+  <g transform="translate(40, 30)">
+    <rect width="130" height="24" rx="12" fill="#dd0031" opacity="0.9"/>
+    <text x="65" y="16" class="tag" text-anchor="middle">ANGULAR DEVELOPER</text>
+  </g>
+
+  <!-- Title & Subtitle -->
+  <text x="40" y="95" class="title">Nishat Raihana Prantik</text>
+  <text x="40" y="130" class="subtitle">
+    Software Engineer | <tspan fill="#dd0031" font-weight="700">Reactive Web &amp; Frontend Architect</tspan>
+  </text>
+
+  <!-- Pulse Status Indicator -->
+  <circle cx="755" cy="25" r="4" fill="#10b981" />
+  <circle cx="755" cy="25" r="8" fill="#10b981" class="pulse" />
+  <text x="740" y="29" class="status-text" text-anchor="end">Available for work</text>
+</svg>
