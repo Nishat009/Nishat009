@@ -1,84 +1,193 @@
-<svg fill="none" viewBox="0 0 800 180" width="100%" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 800 420" width="100%" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .title {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      font-size: 32px;
-      font-weight: 800;
-      fill: #ffffff;
+    .window-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; fill: #94a3b8; }
+    .sidebar-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11px; font-weight: bold; fill: #64748b; letter-spacing: 1px; }
+    .sidebar-file { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; fill: #94a3b8; }
+    .sidebar-file.active { fill: #38bdf8; font-weight: bold; }
+    .tab-text { font-family: monospace; font-size: 12px; fill: #94a3b8; }
+    .tab-text.active { fill: #e2e8f0; font-weight: bold; }
+    .code-text { font-family: Consolas, "Fira Code", Monaco, monospace; font-size: 13px; fill: #e2e8f0; }
+    .keyword { fill: #f43f5e; font-weight: bold; }
+    .decorator { fill: #fbbf24; }
+    .string { fill: #34d399; }
+    .number { fill: #38bdf8; }
+    .comment { fill: #64748b; font-style: italic; }
+    .class-name { fill: #60a5fa; }
+    .property { fill: #f472b6; }
+    .line-number { font-family: monospace; font-size: 12px; fill: #475569; text-anchor: end; }
+    
+    /* Animation for cursor */
+    .cursor {
+      animation: blink 1s step-end infinite;
+      fill: #38bdf8;
     }
-    .subtitle {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      font-size: 15px;
-      font-weight: 500;
-      fill: #94a3b8;
-    }
-    .tag {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      font-size: 11px;
-      font-weight: bold;
-      fill: #ffffff;
-    }
-    .status-text {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      font-size: 11px;
-      font-weight: 500;
-      fill: #94a3b8;
-    }
-    .pulse {
-      animation: pulse-animation 2s infinite;
-      transform-origin: center;
-    }
-    @keyframes pulse-animation {
-      0% {
-        r: 4px;
-        fill-opacity: 0.6;
-      }
-      50% {
-        r: 10px;
-        fill-opacity: 0;
-      }
-      100% {
-        r: 4px;
-        fill-opacity: 0.6;
-      }
+    @keyframes blink {
+      from, to { fill-opacity: 0 }
+      50% { fill-opacity: 1 }
     }
   </style>
 
   <defs>
-    <linearGradient id="angular-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#dd0031" />
-      <stop offset="100%" stop-color="#c3002f" />
-    </linearGradient>
-    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0f172a" />
       <stop offset="50%" stop-color="#1e293b" />
       <stop offset="100%" stop-color="#0f172a" />
     </linearGradient>
+    
+    <!-- Title bar gradient -->
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#0b121f" />
+    </linearGradient>
   </defs>
 
-  <!-- Background card with glowing border effect -->
-  <rect width="100%" height="100%" rx="16" fill="url(#bg-grad)" stroke="#dd0031" stroke-width="2"/>
+  <!-- Window Frame -->
+  <rect width="100%" height="100%" rx="12" fill="url(#bg-grad)" stroke="#dd0031" stroke-width="2"/>
 
-  <!-- Decorative elements -->
-  <!-- Angular shield-like shape in the background -->
-  <path d="M 700,30 L 750,50 L 740,130 L 700,155 L 660,130 L 650,50 Z" fill="url(#angular-grad)" opacity="0.15" />
-  <path d="M 0 140 Q 200 100 400 140 T 800 140" stroke="#dd0031" stroke-width="1.5" fill="none" opacity="0.2"/>
-  <path d="M 0 150 Q 250 120 500 150 T 800 150" stroke="#38bdf8" stroke-width="1" fill="none" opacity="0.15"/>
+  <!-- Titlebar -->
+  <path d="M0 12 C0 5.37 5.37 0 12 0 H 788 C 794.63 0 800 5.37 800 12 V 35 H 0 Z" fill="url(#title-grad)" />
+  <!-- Window Controls -->
+  <circle cx="20" cy="18" r="6" fill="#ff5f56" />
+  <circle cx="40" cy="18" r="6" fill="#ffbd2e" />
+  <circle cx="60" cy="18" r="6" fill="#27c93f" />
+  <text x="400" y="22" class="window-title" text-anchor="middle">👨‍💻 nishat-raihana-prantik.ts — Visual Studio Code</text>
 
-  <!-- Badge tag -->
-  <g transform="translate(40, 30)">
-    <rect width="130" height="24" rx="12" fill="#dd0031" opacity="0.9"/>
-    <text x="65" y="16" class="tag" text-anchor="middle">ANGULAR DEVELOPER</text>
+  <!-- Sidebar (Explorer) -->
+  <rect x="0" y="35" width="180" height="360" fill="#090d16" />
+  <text x="20" y="55" class="sidebar-title">EXPLORER</text>
+  
+  <!-- Sidebar Files Tree -->
+  <g transform="translate(20, 75)">
+    <!-- src folder -->
+    <text x="0" y="15" class="sidebar-file" font-weight="bold" fill="#cbd5e1">📁 src</text>
+    <!-- app folder -->
+    <text x="15" y="35" class="sidebar-file" font-weight="bold" fill="#cbd5e1">📁 app</text>
+    
+    <!-- about.component.ts (active) -->
+    <rect x="22" y="47" width="148" height="22" fill="#1e293b" rx="4" opacity="0.6"/>
+    <!-- Tiny TS icon -->
+    <rect x="30" y="52" width="12" height="12" fill="#3178c6" rx="2"/>
+    <text x="32" y="62" font-family="monospace" font-size="8" font-weight="bold" fill="#ffffff">TS</text>
+    <text x="48" y="62" class="sidebar-file active">about.ts</text>
+    
+    <!-- skills.component.html -->
+    <rect x="30" y="77" width="12" height="12" fill="#e34f26" rx="2"/>
+    <text x="32" y="87" font-family="monospace" font-size="8" font-weight="bold" fill="#ffffff">H</text>
+    <text x="48" y="87" class="sidebar-file">skills.html</text>
+    
+    <!-- contact.component.css -->
+    <rect x="30" y="102" width="12" height="12" fill="#1572b6" rx="2"/>
+    <text x="32" y="112" font-family="monospace" font-size="8" font-weight="bold" fill="#ffffff">C</text>
+    <text x="48" y="112" class="sidebar-file">contact.css</text>
+    
+    <!-- assets folder -->
+    <text x="15" y="137" class="sidebar-file">📁 assets</text>
   </g>
 
-  <!-- Title & Subtitle -->
-  <text x="40" y="95" class="title">Nishat Raihana Prantik</text>
-  <text x="40" y="130" class="subtitle">
-    Software Engineer | <tspan fill="#dd0031" font-weight="700">Reactive Web &amp; Frontend Architect</tspan>
-  </text>
+  <!-- Editor Window -->
+  <rect x="180" y="35" width="620" height="360" fill="#0d1117" />
 
-  <!-- Pulse Status Indicator -->
-  <circle cx="755" cy="25" r="4" fill="#10b981" />
-  <circle cx="755" cy="25" r="8" fill="#10b981" class="pulse" />
-  <text x="740" y="29" class="status-text" text-anchor="end">Available for work</text>
+  <!-- Tabs Header -->
+  <rect x="180" y="35" width="620" height="35" fill="#161b22" />
+  
+  <!-- Active Tab -->
+  <path d="M 180 70 L 190 40 L 320 40 L 330 70 Z" fill="#0d1117" />
+  <rect x="195" y="49" width="12" height="12" fill="#3178c6" rx="2"/>
+  <text x="197" y="59" font-family="monospace" font-size="8" font-weight="bold" fill="#ffffff">TS</text>
+  <text x="215" y="58" class="tab-text active">about.ts  ×</text>
+  
+  <!-- Inactive Tab -->
+  <rect x="350" y="49" width="12" height="12" fill="#e34f26" rx="2"/>
+  <text x="352" y="59" font-family="monospace" font-size="8" font-weight="bold" fill="#ffffff">H</text>
+  <text x="370" y="58" class="tab-text">skills.html</text>
+
+  <!-- Code Area -->
+  <g transform="translate(180, 70)">
+    <!-- Line numbers -->
+    <g transform="translate(30, 0)">
+      <text x="0" y="25" class="line-number">1</text>
+      <text x="0" y="45" class="line-number">2</text>
+      <text x="0" y="65" class="line-number">3</text>
+      <text x="0" y="85" class="line-number">4</text>
+      <text x="0" y="105" class="line-number">5</text>
+      <text x="0" y="125" class="line-number">6</text>
+      <text x="0" y="145" class="line-number">7</text>
+      <text x="0" y="165" class="line-number">8</text>
+      <text x="0" y="185" class="line-number">9</text>
+      <text x="0" y="205" class="line-number">10</text>
+      <text x="0" y="225" class="line-number">11</text>
+      <text x="0" y="245" class="line-number">12</text>
+      <text x="0" y="265" class="line-number">13</text>
+      <text x="0" y="285" class="line-number">14</text>
+    </g>
+
+    <!-- Code Content -->
+    <g transform="translate(45, 0)" class="code-text">
+      <!-- Line 1 -->
+      <text x="0" y="25">
+        <tspan class="keyword">import</tspan> { Component, OnInit } <tspan class="keyword">from</tspan> <tspan class="string">'@angular/core'</tspan>;
+      </text>
+      <!-- Line 2 -->
+      <text x="0" y="45">
+        <tspan class="keyword">import</tspan> { SoftwareEngineer } <tspan class="keyword">from</tspan> <tspan class="string">'./profile'</tspan>;
+      </text>
+      <!-- Line 3 -->
+      <text x="0" y="65" class="comment">// Dedicated Front-End Architect specialized in Angular</text>
+      <!-- Line 4 -->
+      <text x="0" y="85">
+        <tspan class="decorator">@Component</tspan>({
+      </text>
+      <!-- Line 5 -->
+      <text x="20" y="105">
+        <tspan class="property">selector</tspan>: <tspan class="string">'app-nishat'</tspan>,
+      </text>
+      <!-- Line 6 -->
+      <text x="20" y="125">
+        <tspan class="property">template</tspan>: <tspan class="string">'🚀 Crafting reactive web apps'</tspan>
+      </text>
+      <!-- Line 7 -->
+      <text x="0" y="145">
+        })
+      </text>
+      <!-- Line 8 -->
+      <text x="0" y="165">
+        <tspan class="keyword">export class</tspan> <tspan class="class-name">NishatRaihanaPrantik</tspan> <tspan class="keyword">implements</tspan> <tspan class="class-name">OnInit</tspan> {
+      </text>
+      <!-- Line 9 -->
+      <text x="20" y="185">
+        <tspan class="keyword">public</tspan> <tspan class="property">role</tspan> = <tspan class="string">'Software Engineer'</tspan>;
+      </text>
+      <!-- Line 10 -->
+      <text x="20" y="205">
+        <tspan class="keyword">public</tspan> <tspan class="property">location</tspan> = <tspan class="string">'Dhaka, Bangladesh 🇧🇩'</tspan>;
+      </text>
+      <!-- Line 11 -->
+      <text x="20" y="225">
+        <tspan class="keyword">public</tspan> <tspan class="property">stack</tspan> = [<tspan class="string">'Angular'</tspan>, <tspan class="string">'TypeScript'</tspan>, <tspan class="string">'RxJS'</tspan>, <tspan class="string">'Signals'</tspan>];
+      </text>
+      <!-- Line 12 -->
+      <text x="20" y="245">
+        <tspan class="keyword">public</tspan> <tspan class="property">funFact</tspan> = <tspan class="string">'I love comics 📚 &amp; blogging 📝'</tspan>;
+      </text>
+      <!-- Line 13 -->
+      <text x="20" y="265">
+        <tspan class="keyword">public</tspan> <tspan class="property">portfolio</tspan> = <tspan class="string">'prantik-portfolio009.netlify.app'</tspan>;
+      </text>
+      <!-- Line 14 -->
+      <text x="0" y="285">
+        } <rect class="cursor" x="15" y="272" width="8" height="15" />
+      </text>
+    </g>
+  </g>
+
+  <!-- Status Bar -->
+  <path d="M0 395 C0 395 0 420 0 420 H 800 V 395 Z" fill="#0b0f19" />
+  <!-- Left Side Status -->
+  <rect x="0" y="395" width="80" height="25" fill="#dd0031" />
+  <text x="40" y="412" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">✔ main</text>
+  <text x="95" y="412" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748b">Ln 14, Col 2</text>
+  
+  <!-- Right Side Status Info -->
+  <text x="780" y="412" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748b" text-anchor="end">TypeScript • Angular v18 • UTF-8</text>
 </svg>
