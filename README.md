@@ -68,16 +68,6 @@
 
 ---
 
-### 📊 GitHub Stats & Metrics
-
-<p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=Nishat009&show_icons=true&theme=radical&count_private=true" alt="Nishat's GitHub Stats" height="195" />
-  &nbsp;&nbsp;
-  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=Nishat009&show_icons=true&theme=radical&layout=compact" alt="Nishat's Top Languages" height="195" />
-</p>
-
----
-
 ### 🤝 Let's Connect!
 
 I'm always open to talking about web performance, Angular architectures, open source, or comics. Reach out to me:
