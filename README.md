@@ -1,6 +1,6 @@
 <div align="center">
-  <!-- Sleek Custom SVG Header referenced relatively -->
-  <img src="header.svg" width="100%" alt="Nishat Raihana Prantik - Angular Developer" />
+  <!-- Interactive IDE Mockup Header -->
+  <img src="header.svg" width="100%" alt="Nishat Raihana Prantik - VS Code Profile" />
 </div>
 
 <br/>
@@ -11,51 +11,60 @@
 
 ---
 
-### 💻 About Me
-
-Here is a quick snapshot of who I am, structured as a modern Angular component:
-
-```typescript
-import { Component, OnInit } from '@angular/core';
-
-@Component({
-  selector: 'app-nishat-raihana-prantik',
-  templateUrl: './profile.component.html',
-  styleUrls: ['./profile.component.css']
-})
-export class NishatRaihanaPrantikComponent implements OnInit {
-  // ⚡ Developer Profile
-  public readonly name = 'Nishat Raihana Prantik';
-  public readonly role = 'Software Engineer';
-  public readonly location = 'Dhaka, Bangladesh 🇧🇩';
-  
-  // 🚀 Framework of Choice & Core Stack
-  public readonly primaryFramework = 'Angular';
-  public readonly frontendTech = ['TypeScript', 'JavaScript', 'RxJS', 'Signals', 'HTML5', 'CSS3', 'SCSS'];
-  public readonly stateManagement = ['NgRx', 'RxJS BehaviorSubjects'];
-  
-  // 🎨 Styling & Design Systems
-  public readonly UI_Design = ['Tailwind CSS', 'Bootstrap', 'Bulma', 'Material Design', 'Figma'];
-  
-  // 🛠️ Other Technologies & Tools
-  public readonly backendAndDb = ['Laravel', 'Java', 'MySQL'];
-  public readonly toolsWorkflow = ['Git', 'Webpack', 'Postman', 'Cypress', 'Adobe Illustrator'];
-  
-  // 💡 Fun Fact
-  public readonly funFact = 'I love to read comics and write technical blogs! 📚📝';
-}
-```
+### 🚀 About Me
+- 💻 **Software Engineer** specializing in the Angular ecosystem, building high-performance, reactive, and scalable front-end experiences.
+- ⚙️ Passionate about clean architecture design patterns, **RxJS declarative streams**, and **Angular Signals**.
+- ✍️ Technical writer sharing front-end stories on **[Medium](https://medium.com/@nishatraihana009)**.
+- ⚡ Fun Fact: I have an endless love for reading comics! 📚
 
 ---
 
 ### 🛠️ Tech Stack & Toolkit
 
-| Category | Technologies |
-| :--- | :--- |
-| **Frontend Framework & Core** | <a href="https://angular.io" target="_blank"><img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" /></a> <a href="https://www.typescriptlang.org" target="_blank"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /></a> <a href="https://rxjs.dev" target="_blank"><img src="https://img.shields.io/badge/RxJS-B7178C?style=for-the-badge&logo=reactivex&logoColor=white" alt="RxJS" /></a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /></a> |
-| **Markup & Styling** | <a href="https://www.w3.org/html" target="_blank"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" /></a> <a href="https://www.w3.org/Style/CSS" target="_blank"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" /></a> <a href="https://sass-lang.com" target="_blank"><img src="https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="SASS" /></a> <a href="https://tailwindcss.com" target="_blank"><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" /></a> <a href="https://getbootstrap.com" target="_blank"><img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" /></a> <a href="https://bulma.io" target="_blank"><img src="https://img.shields.io/badge/Bulma-00D1B2?style=for-the-badge&logo=bulma&logoColor=white" alt="Bulma" /></a> |
-| **Backend & DB** | <a href="https://laravel.com" target="_blank"><img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" /></a> <a href="https://www.java.com" target="_blank"><img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" /></a> <a href="https://www.mysql.com" target="_blank"><img src="https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" /></a> <a href="https://nextjs.org" target="_blank"><img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" /></a> <a href="https://reactjs.org" target="_blank"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" /></a> |
-| **Testing & Tooling** | <a href="https://www.cypress.io" target="_blank"><img src="https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white" alt="Cypress" /></a> <a href="https://git-scm.com" target="_blank"><img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" /></a> <a href="https://webpack.js.org" target="_blank"><img src="https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black" alt="Webpack" /></a> <a href="https://www.postman.com" target="_blank"><img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" /></a> <a href="https://figma.com" target="_blank"><img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" /></a> |
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="200"><b>Frontend &amp; Core</b></td>
+      <td>
+        <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/RxJS-B7178C?style=for-the-badge&logo=reactivex&logoColor=white" alt="RxJS" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>Styling &amp; Design</b></td>
+      <td>
+        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+        <img src="https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="SASS" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+        <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+        <img src="https://img.shields.io/badge/Bulma-00D1B2?style=for-the-badge&logo=bulma&logoColor=white" alt="Bulma" />
+        <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>Backend &amp; DB</b></td>
+      <td>
+        <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
+        <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+        <img src="https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+        <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+        <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>Tools &amp; Testing</b></td>
+      <td>
+        <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+        <img src="https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black" alt="Webpack" />
+        <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
+        <img src="https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white" alt="Cypress" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
