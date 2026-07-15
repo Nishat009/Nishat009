@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Interactive IDE Mockup Header -->
-  <img src="header.svg" width="100%" alt="Nishat Raihana Prantik - VS Code Profile" />
+  <img src="header.svg?v=2" width="100%" alt="Nishat Raihana Prantik - VS Code Profile" />
 </div>
 
 <br/>
