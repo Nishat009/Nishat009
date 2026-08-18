@@ -87,4 +87,4 @@ I'm always open to talking about **frontend development, React, Angular, TypeScr
 
 *   🌐 Check out my digital playground / portfolio: [prantik-portfolio009.netlify.app](https://prantik-portfolio009.netlify.app/)
 *   📝 Read my technical articles on Medium: [@nishatraihana009](https://medium.com/@nishatraihana009)
-*   📄 Download / View my Resume: [Google Drive](https://drive.google.com/file/d/1_o2fpLilesBeTK0mZzblTM7ED_poonGo/view?usp=sharing)
+*   📄 Download / View my Resume: [Google Drive](https://drive.google.com/file/d/1jOxzKTv0qXwz0DSdPK6srBQP4z8fNXLH/view?usp=drive_link)
