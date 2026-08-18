@@ -12,10 +12,12 @@
 ---
 
 ### 🚀 About Me
-- 💻 **Software Engineer** specializing in the Angular ecosystem, building high-performance, reactive, and scalable front-end experiences.
-- ⚙️ Passionate about clean architecture design patterns, **RxJS declarative streams**, and **Angular Signals**.
-- ✍️ Technical writer sharing front-end stories on **[Medium](https://medium.com/@nishatraihana009)**.
-- ⚡ Fun Fact: I have an endless love for reading comics! 📚
+* 💻 **Software Engineer** specializing in **React, Next and Angular**, building responsive, scalable, and high-performance web applications.
+* ⚙️ Experienced with **TypeScript, JavaScript, Redux/Redux Toolkit, REST APIs, Bootstrap, and Tailwind CSS**.
+* 🚀 Passionate about creating clean, reusable UI components and building **modern, user-focused frontend experiences**.
+* ✨ Always exploring new technologies and improving my skills in **frontend development and AI-powered applications**.
+* 📚 Fun Fact: I have an endless love for reading comics!
+
 
 ---
 
@@ -70,7 +72,8 @@
 
 ### 🤝 Let's Connect!
 
-I'm always open to talking about web performance, Angular architectures, open source, or comics. Reach out to me:
+I'm always open to talking about **frontend development, React, Angular, TypeScript, AI-powered applications, open source, or comics**. Feel free to reach out to me! 🚀📚
+
 
 <div align="center">
   <a href="https://www.linkedin.com/in/nishat12/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
