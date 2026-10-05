@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://prantik-portfolio009.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-dd0031?style=for-the-badge&logo=netlify&logoColor=white&labelColor=0d1117" alt="Portfolio" /></a>
   <a href="https://medium.com/@nishatraihana009"><img src="https://img.shields.io/badge/Medium-Read-c9a24e?style=for-the-badge&logo=medium&logoColor=white&labelColor=0d1117" alt="Medium" /></a>
-  <a href="https://drive.google.com/file/d/1jOxzKTv0qXwz0DSdPK6srBQP4z8fNXLH/view?usp=drive_link"><img src="https://img.shields.io/badge/Résumé-View-f5efe3?style=for-the-badge&logo=googledrive&logoColor=white&labelColor=0d1117" alt="Résumé" /></a>
+  <a href="https://drive.google.com/file/d/1T5FeBZh43J4k6WE249iYhnoEFQlE8TNu/view?usp=sharing"><img src="https://img.shields.io/badge/Résumé-View-f5efe3?style=for-the-badge&logo=googledrive&logoColor=white&labelColor=0d1117" alt="Résumé" /></a>
   <img src="https://komarev.com/ghpvc/?username=nishat009&label=Profile%20Views&color=dd0031&style=for-the-badge" alt="Profile views" />
 </p>
 
